@@ -1,5 +1,5 @@
 import {createBrowserRouter} from "react-router-dom";
-import {ROUTES} from "../core/conts/routes.ts";
+import {ROUTES} from "../core/const/routes.ts";
 import {ErrorPage} from "../core/components/sharede/ErrorPage.tsx";
 import {HomePage} from "../modules/home/page/HomePage.tsx";
 import {SingleMediaView} from "../modules/mediaView/page/SingleMediaView.tsx";

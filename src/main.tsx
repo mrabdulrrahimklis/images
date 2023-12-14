@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import {router} from "./routes/root.tsx";
 import {RouterProvider} from "react-router-dom";
-import {ReactQueryProvider} from "./core/proivders/ReactQueryProvider.tsx";
+import {ReactQueryProvider} from "./core/providers/ReactQueryProvider.tsx";
 import ToastProvider from "./core/providers/ToastContext.tsx";
 import SearchProvider from "./core/providers/SearchContext.tsx";
 import CardProvider from "./core/providers/CardContext.tsx";

@@ -4,7 +4,7 @@ import {useImages} from "../hooks/useImages.tsx";
 import {Search} from "../components/Search.tsx";
 import {IImages} from "../interface/IImages.tsx";
 import {useNavigate} from "react-router-dom";
-import {ROUTES} from "../../../core/conts/routes.ts";
+import {ROUTES} from "../../../core/const/routes.ts";
 import {pathBuilder} from "../../../core/helper/pathBuilder.ts";
 import logo from "../../../assets/logo.png";
 import {useContext} from "react";

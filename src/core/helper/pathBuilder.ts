@@ -1,4 +1,4 @@
-import {ROUTES} from "../conts/routes.ts";
+import {ROUTES} from "../const/routes.ts";
 
 export function pathBuilder(
     path: ROUTES,
