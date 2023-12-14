@@ -13,19 +13,15 @@ export const ToastContext = createContext<IToastContextProps>({
 const ToastProvider: FC<PropsWithChildren> = ({ children }) => {
     const [isOpen, setIsOpen] = useState(false);
     const [message, setMessage] = useState<string>('');
-    let toastTimeout: NodeJS.Timeout | null = null;
 
     const open = (message: string) => {
         setMessage(message);
         setIsOpen(true);
 
-        if (toastTimeout) {
-            clearTimeout(toastTimeout);
-        }
 
-        toastTimeout = setTimeout(() => {
+        setTimeout(() => {
             setIsOpen(false);
-        }, 2000);
+        }, 1000);
     };
 
     const close = () => {

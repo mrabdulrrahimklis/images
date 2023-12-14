@@ -1,11 +1,22 @@
-# React + TypeScript + Vite
+# Images Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+On this project implementation we used multiple different lightweight packages to make better optimisation of this solution,
 
-Currently, two official plugins are available:
+Here is few of them:
+- Vite
+  - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Form Hooks - we don't have forms in this project but used  for search to easy implement search with Enter
+- HeadlessUI - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
+- TailwindCSS - Modern way of styling apps
+- Axios - Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase). On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests.
+- ReactQuery - owerful asynchronous state management for TS/JS, React
+- React Router Dom - Routing on pages with React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Importance of TypeScript
+What is TypeScript Used For? TypeScript extends JavaScript and enhances the developer experience. It helps software developers add type safety to their projects and provides features like type aliases, interfaces, abstract classes, encapsulation, inheritance, and function overloading.
+ 
+### Why to use Vite
+Unlike CRA, Vite does not build your entire application before serving, instead, it builds the application on demand. It also leverages the power of native ES modules, esbuild, and Rollup to improve development and build time.
 
 ## Expanding the ESLint configuration
 
