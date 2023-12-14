@@ -25,6 +25,7 @@ export const SingleMediaView = () => {
             <div className='w-full h-full flex justify-items-center mt-16 justify-center'>
                 <h3 className='text-md'>
                     <img className='animate-ping' src={logo} alt='Logo' />
+                    Loading...
                 </h3>
             </div>
             </>
