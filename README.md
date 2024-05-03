@@ -1,9 +1,5 @@
 # Images Test
 
-Link on project:
-
-https://images-pi-nine.vercel.app/
-
 ### Description:
 
 I have two pages with `Search Page` and `Single Media View` and used
